@@ -29,7 +29,7 @@ export function UserProvider({ children }: { children: React.ReactNode }) {
 
   const getConnection = () => {
     return new Connection(
-      `https://api.${NETWORK}.solana.com`,
+      `https://mainnet.helius-rpc.com/?api-key=a1d5b3f4-f7c0-499a-b729-6f7ef05cacaa`,
       { commitment: COMMITMENT }
     );
   };
